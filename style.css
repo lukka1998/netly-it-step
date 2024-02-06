@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     }
-    
-    
+
+
     nav {
     display: flex;
     flex-wrap: wrap;
@@ -31,16 +31,16 @@
     }
     .list{
         display: flex;
-        
+
         list-style: none;
         gap: 40px;
     }
     .search-icon i{
         color: white;
-        
+
     }
-    
-    
+
+
     #toggler, label{
     display: none;
     }
@@ -63,10 +63,10 @@
         margin-top: 27px;
         -webkit-transition: all 1s;
         transition: all 1s;
-       
-       
+
+
       }
-      
+
       .dropdown-content ul{
         display: flex;
         flex-direction: column;
@@ -86,29 +86,29 @@
       .dropdown-content ul li {
         list-style-type: none;
         color: black;
-        
+
        width: 200px;
         padding: 10px 10px;
-        
-        
+
+
       }
       .dropdown:hover .dropdown-content {
         display: block;
-       
+
     }
     .dropdown li a{
         width: 200px;
     }
-    
-      
-      
+
+
+
       .dropdown-content .drop li:hover {
         background-color: #ff2f8b;
         color: white;
         cursor: pointer;
 
-       
-        
+
+
       }
       nav input:hover{
         border: 1px solid #ff2f8b;
@@ -133,7 +133,7 @@
         text-align: center;
         color: white;
          font-weight: bold; 
-    
+
          }
     nav i{
         color: white;
@@ -159,7 +159,7 @@
     }
     .nav-bottom-img p{
         font-size: 20px;
-        
+
     }
     .main-title{
         display: flex;
@@ -168,10 +168,9 @@
         align-items: center;
         gap: 15px;
        margin: 30px 0;
-       text-align: center;
     }
     .main-title p{
-       
+
    background: linear-gradient(to right, rgb(247, 31, 128) , rgb(9, 9, 235)); 
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -247,7 +246,7 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     }
     .get-ready{
         background-image: url(cta-bg.png);
-        
+
         background-position: center;
         width: 100%;
         height: 100vh;
@@ -292,9 +291,9 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     .content-top h6 , i{
         color: rgb(94, 91, 91);
         font-size: 15px;
-       
+
     }
-    
+
     .icons{
         display: flex;
         width: 100%;
@@ -319,7 +318,7 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     }
     .top3 img {
         transition: 1s;
-       
+
     }
     .zoom {
   overflow: hidden;
@@ -327,11 +326,11 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     .zoom img{
         transition: transform 0.25s;
     }
-    
+
     .s3:hover img{
         transform: scale(1.12);
-        
-  
+
+
     }
     .absolute{
         position: absolute;
@@ -345,114 +344,25 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
     .s3:hover .absolute{
         background:linear-gradient(to right, orange ,rgb(253, 75, 75), red) ;
     }
     .flex{
         display: flex;
-      
+
         width: 100%;
         height: 100vh;
-        
-    }
-   
-    .hover-image1{
-        width: 25%;
-        height:70vh;
-        background-image: url(images/p1.jpg);
-        background-size: cover; 
-        background-position: center center;
-        background-repeat: no-repeat;
-        text-align:center;
-        justify-content: center;
-        display: flex;
-        align-items: flex-end;
-        cursor: pointer;
-    }
-    .hover-image2{
-        width: 25%;
-        height:70vh;
-        background-image: url(images/p2.jpg);
-        background-size: cover; 
-        background-position: center center;
-        background-repeat: no-repeat;
-        text-align:center;
-        
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
-        
-    }
-    .hover-image3{
-        width: 25%;
-        height:70vh;
-        background-image: url(images/p3.jpg);
-        background-size: cover; 
-        background-position: center center;
-        background-repeat: no-repeat;
-        text-align:center;
-       
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-    cursor: pointer;
-    }
-    .hover-image4{
-        width: 25%;
-        height:70vh;
-        background-image: url(images/p4.jpg);
-        background-size: cover; 
-        background-position: center center;
-        background-repeat: no-repeat;
-        text-align:center;
-        justify-content: center;
-        display: flex;
-        
-        align-items: flex-end;
-        gap: 20px;
-        cursor: pointer;
-    }
 
-
-    .midle{
-        position: absolute;
-
-        
     }
-    .midle h5 ,p {
-        color: white;
-        list-style-type: none;
-        font-size: 20px;
-        border-bottom: 1px solid white;
-        padding-bottom: 5px;
-        gap: 10px;
-        visibility: hidden;
+    .hover-image img{
+        width:25%;
     }
-    .hover-image1:hover{
-        background-color: rgba(26, 20, 20, 0.6);
-      }
-      .hover-image2:hover{
-        background-color: rgba(26, 20, 20, 0.6);
-      }
-      .hover-image3{
-        background-color: rgba(26, 20, 20, 0.6);
-      }
-      .hover-image4{
-        background-color: rgba(26, 20, 20, 0.6);
-      }
-      .hover-image2:hover .midle h5{
-        visibility: hidden;
-        
-        
-      }
-    
 .item{
     width: 100%;
 }
-    
+
 
 
 
@@ -481,10 +391,10 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
         .row{
             height: 200vh;
         }
-    
+
     }
 
-    
+
 
 
 
@@ -527,11 +437,11 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
         width: 120px;
         padding-bottom: 3px;
     }
-   
+
     nav{
         display: flex;
         align-items: center;
-        
+
         padding-top: 20px;
     }
     .list {
@@ -551,32 +461,16 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     .right-conent{
         display: none;
     }
-    
+    .hover-image2{
+    display: none;
+
+    }
     .im3{
         display: none;
     }
-    .hover-image1 {
+    .hover-image {
         width: 100%;
-        height: 100vh;
-        background-position: center center;
     }
-    .hover-image2 {
-        width: 100%;
-        height: 100vh;
 
-        background-position:  center center;
-    }
-    .hover-image3 {
-        width: 100%;
-        height: 100vh;
-        background-position: center center;
-
-    }
-    .hover-image4 {
-        width: 100%;
-        height: 100vh;
-        background-position: center center;
-    }
-    
 
     }
