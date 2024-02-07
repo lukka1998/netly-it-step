@@ -468,8 +468,292 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     
     
 }
+.cta2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(cta-bg2.png);
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.cta2-rig{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    width: 48%;
+    height: 60vh;
+    /* gap: 20px; */
+}
+.cta2-rig h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.cta2-rig p{
+    color: rgb(199, 196, 196);
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.input-relative{
+    position: relative;
+    width: 100%;
+}
+.btn-absolute{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+}
+.input-relative input{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(198, 63, 231);
+    padding: 20px 20px;
+    width: 90%;
+    display: flex;
+    cursor: pointer;
+    height: 60px;
+    
 
+}
 
+  .input-relative input:focus{
+    outline: none;
+   
+    
+  }
+  .input-relative input:focus::placeholder{
+   color: transparent;
+    
+  }
+  input[type="email"]::placeholder{
+    text-align: left;
+    color: rgb(248, 242, 242);
+  }
+  .btn-absolute button{
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .png{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: url(quote.png);
+    gap:20px ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 160px;
+    height: 75px;
+    padding: 10px 0;
+   
+    
+  }
+  .png h4{
+    color: black;
+    font-weight: bold;
+  }
+  .felx-c{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+  .star i{
+    color: orange;
+  }
+  .paragrap{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+  }
+  .paragrap p{
+   color: rgb(173, 170, 170);
+   text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    
+  }
+  .photos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+  }
+  .photos img{
+    border-radius: 50%;
+    margin-top: -100px;
+  }
+  .s2{
+    padding: 240px 20px;
+  }
+  .content-top p{
+    font-style: italic;
+  }
+  .content-top h5{
+    font-style: italic;
+  }
+  .content-top h5:hover{
+    color: #ff2f8b;
+  }
+  .foot-flex{
+    display: flex;
+    background-color: #04091e;
+    padding: 100px 100px;
+    width: 100%;
+    height: 80vh;
+    gap: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+   
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 260px;
+    background-color: transparent;
+    padding: 15px;
+  }
+  .about h3{
+    color: white;
+    display: inline-block;
+    
+    
+    
+  }
+  .about p{
+    color: rgb(189, 157, 157);
+    font-style: italic;
+  }
+  
+  .ul-about{
+    display: flex;
+    gap: 30px;
+
+  }
+  .ul-about ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style-type: none;
+  }
+  .ul-about ul li{
+    color: rgb(189, 157, 157);
+  }
+  .ul-about ul li:hover{
+    color: #ff2f8b;
+    cursor: pointer;
+  }
+  .input-relative2{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   max-width:99%;
+    height: 50px;
+    gap: 2px;
+  }
+  .input-relative2 input{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid gray;
+    min-width: 96%;
+    max-width: 96%;
+  }
+  .input-relative2 input:focus{
+    border: none;
+    outline:1px solid aqua;
+  }
+  .btn-absolute2{
+    /* position: absolute; */
+    top: 3;
+    right:-15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    
+   
+  }
+  .input-relative2 input:focus::placeholder{
+    color: transparent;
+     
+   }
+  .btn-absolute2 button{
+    
+    
+     width: 30px;
+    height: 37px;
+    background: linear-gradient(to right, rgb(247, 31, 128) , rgb(47, 47, 243));
+    border: none;
+  }
+  .btn-absolute2 button i{
+    color: white;
+  }
+  .ab3{
+    gap: 40px;
+    min-width: 25%;
+  }
+  .ab4{
+    width: 31%;
+  }
+  .ab1{
+    width: 30%;
+  }
+  .bottom-p{
+    margin-top: -60px;
+  }
+  .last-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background:#04091e;
+    padding: 0 100px;
+  }
+  .one span{
+    color: #ff2f8b;
+  }
+  .one p{
+    color: rgb(189, 157, 157);
+  }
+  .one i{
+    color: rgb(189, 157, 157);
+  }
+  .two{
+    display: flex;
+    gap: 20px;
+    transform: scale(1.1);
+  }
+  .two i:hover{
+    color:#ff2f8b;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 
 
 
@@ -575,7 +859,7 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
         width: 100%;
     }
     .inteligent{
-        height: 200vh;
+        height: 280vh;
         margin-top: 30px;
         justify-content: center;
         align-items: center;
@@ -584,6 +868,33 @@ box-shadow: 0px 0px 23px -14px rgba(0,0,0,0.75);
     .relative img{
         width: 300px;
     }
-
-
+    .cta2-left{
+        display: none;
     }
+    .cta2-rig{
+        width: 100%;
+        gap: 10px;
+        
+    }
+    .cta2{
+        justify-content: center;
+        padding: 0;
+        gap: 10px;
+    }
+    .foot-flex{
+        flex-direction: column;
+        height: 200vh;
+        padding: 20px;
+    }
+    .about{
+        width: 100%;
+    }
+    .last-div{
+        flex-direction: column;
+        text-align: center;
+        height: 110px;
+        justify-content: space-around;
+    }
+
+
+}
